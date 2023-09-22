@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	background-image:linear-gradient(270deg, #e8e2e2,#707070);	
+}
+#cashier-name{
+    font-size: 120%;
+}
+#date{
+    font-size: 120%;
+}
+#time{
+    font-size: 120%;
+    position: absolute;
+    left: 49.5%;
+}
+#total{
+    font-size: 120%;
+    position: absolute;
+    left: 40%;
+}
+td{
+    width: 150px;
+    text-align:center;   
+}
+.rainbow-button {
+    width:calc(5vw + 5px);
+    height:calc(3vw + -3px);
+    background-image: linear-gradient(100deg,gray 5%,silver 50%, white 100% );
+    
+    display:flex;
+   
+    align-items:center;
+    margin-top: 20px;
+                  margin-left:10px;
+                  
+                  padding:3px;
+                  background-color:white;
+                  border:2px solid gray;
+                  border-radius:25px;
+                  font-size:25px;
+                  display:inline-block;
+    
+    
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    
+    width:12vw;
+    height:3vw;
+    display:flex;
+    align-items:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 3s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  #Cancel-recipt{
+      position: absolute;
+      left: 1%;
+      width:calc(12vw + 40px);
+      height:calc(4vw + 20px);
+                  
+    }
+    #print-recipt{
+        position: absolute;
+        left: 62%;
+        width:calc(12vw + 40px);
+        height:calc(4vw + 20px);
+
+    }
+    #done-recipt{
+      position: absolute;
+      left: 80%;
+      width:calc(12vw + 40px);
+      height:calc(4vw + 20px);
+
+  }
+      #iconcancel{
+      width:25px;
+      height:25px;
+      }
+      #iconprint{
+      width:25px;
+      height:25px;
+      }
+      #icondone{
+        width:25px;
+        height:25px;
+        }
